@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var newCar = VehicleFactory.GetVehicle();
+
+            newCar.Drive();
         }
+
+
     }
 }
